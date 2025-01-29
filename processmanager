@@ -1,6 +1,7 @@
 import os
 import signal
 
+
 def display_table(data, headers):
     header = " | ".join(headers)
     line = "-" * len(header)
